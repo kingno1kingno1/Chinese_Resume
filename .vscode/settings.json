@@ -8,10 +8,7 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "%DOCFILE%"
-            ],
-            "env": {
-                "PATH": "/usr/local/texlive/2025basic/bin/universal-darwin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-            }
+            ]
         },
         {
             "name": "pdflatex",
@@ -21,20 +18,14 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "%DOCFILE%"
-            ],
-            "env": {
-                "PATH": "/usr/local/texlive/2025basic/bin/universal-darwin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-            }
+            ]
         },
         {
             "name": "bibtex",
             "command": "bibtex",
             "args": [
                 "%DOCFILE%"
-            ],
-            "env": {
-                "PATH": "/usr/local/texlive/2025basic/bin/universal-darwin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-            }
+            ]
         }
     ],
     "latex-workshop.latex.recipes": [
@@ -96,12 +87,14 @@
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.message.error.show": true,
     "latex-workshop.message.warning.show": true,
-    "latex-workshop.latex.rootFile.doNotPrompt": true,
+    "latex-workshop.latex.rootFile.doNotPrompt": false,
     "latex-workshop.latex.rootFile.useSubFile": false,
     "latex-workshop.latex.search.rootFiles.include": [
         "**/*.tex"
     ],
     "latex-workshop.latex.search.rootFiles.exclude": [
-        "**/resume/**"
-    ]
+        "**/node_modules/**"
+    ],
+    "latex-workshop.latex.rootFile.indicator": "\\documentclass[]{}",
+    "latex-workshop.showContextMenu": true
 }

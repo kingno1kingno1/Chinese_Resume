@@ -39,27 +39,27 @@
   CJKmath=true
 }
 
-% Set Chinese fonts with proper fallback
-\setCJKmainfont{PingFang SC}[
-  BoldFont=PingFang SC Semibold,
+% Set Chinese fonts with Windows compatible fonts
+\setCJKmainfont{Microsoft YaHei}[
+  BoldFont=Microsoft YaHei Bold,
   AutoFakeBold=2.5,
   AutoFakeSlant=0.15
 ]
 
 % Set fallback fonts for different font families
-\setCJKsansfont{PingFang SC}[
-  BoldFont=PingFang SC Semibold
+\setCJKsansfont{Microsoft YaHei}[
+  BoldFont=Microsoft YaHei Bold
 ]
 
-\setCJKmonofont{STSong}
+\setCJKmonofont{SimSun}
 
-% Configure fallback fonts
+% Configure fallback fonts for Windows
 \setCJKfallbackfamilyfont{\CJKrmdefault}{
-  PingFang SC,
-  Heiti TC,
-  PingFang TC,
-  STSong,
-  Kaiti SC
+  Microsoft YaHei,
+  SimSun,
+  SimHei,
+  KaiTi,
+  FangSong
 }
 
 % Chinese line breaking and punctuation
