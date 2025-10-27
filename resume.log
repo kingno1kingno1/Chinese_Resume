@@ -1,7 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.27)  27 OCT 2025 16:58
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.27)  27 OCT 2025 17:04
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **./resume.tex
 (resume.tex
@@ -1227,11 +1226,11 @@ LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 47.
+(Font)              scaled to size 10.0pt on input line 46.
 \symCJKmath=\mathgroup255
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
-(Font)                  TU/MicrosoftYaHei(0)/m/n --> TU/MicrosoftYaHei(0)/b/n o
-n input line 115.
+(Font)                  TU/NotoSansCJKTC(0)/m/n --> TU/NotoSansCJKTC(0)/b/n on 
+input line 115.
 (resume.aux)
 \openout1 = `resume.aux'.
 
@@ -1348,21 +1347,28 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 126.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 126.
-LaTeX Font Info:    Font shape `TU/Roboto(5)/m/n' will be
-(Font)              scaled to size 32.0pt on input line 126.
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 126.
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 126.
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 126.
 LaTeX Font Info:    Font shape `TU/Roboto(1)/m/n' will be
 (Font)              scaled to size 32.0pt on input line 126.
 LaTeX Font Info:    Font shape `TU/Roboto(1)/b/n' will be
+(Font)              scaled to size 32.0pt on input line 126.
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/b/n' will be
 (Font)              scaled to size 32.0pt on input line 126.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.6pt on input line 126.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 7.6pt on input line 126.
 
-LaTeX Font Warning: Font shape `TU/MicrosoftYaHei(0)/m/sc' undefined
-(Font)              using `TU/MicrosoftYaHei(0)/m/n' instead on input line 126.
+LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/sc' undefined
+(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 126.
 
-
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 126.
 LaTeX Font Info:    Font shape `TU/Roboto(1)/m/n' will be
 (Font)              scaled to size 6.8pt on input line 126.
 
@@ -1380,9 +1386,13 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 1.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 1.
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 1.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 18.
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 18.
@@ -1392,13 +1402,18 @@ able
 t line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 9.0pt on input line 18.
-LaTeX Font Info:    Font shape `TU/MicrosoftYaHei(0)/m/sl' in size <9> not avai
-lable
-(Font)              Font shape `TU/MicrosoftYaHei(0)/m/it' tried instead on inp
-ut line 18.
+
+
+LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/sl' undefined
+(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 18.
+
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 18.
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/m/sc' will be
 (Font)              scaled to size 8.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 18.
@@ -1408,12 +1423,9 @@ able
 t line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 18.
-LaTeX Font Info:    Font shape `TU/MicrosoftYaHei(0)/m/sl' in size <8> not avai
-lable
-(Font)              Font shape `TU/MicrosoftYaHei(0)/m/it' tried instead on inp
-ut line 18.
-) (resume/education.tex) (resume/projects.tex)
-(resume/skills.tex
+LaTeX Font Info:    Font shape `TU/NotoSansCJKTC(0)/m/sl' will be
+(Font)              scaled to size 8.0pt on input line 18.
+) (resume/education.tex) (resume/projects.tex) (resume/skills.tex
 Overfull \hbox (51.26646pt too wide) in alignment at lines 3--19
 [] [] 
  []
@@ -1433,11 +1445,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35480 strings out of 403196
- 734172 string characters out of 5455091
- 1346081 words of memory out of 5000000
- 63418 multiletter control sequences out of 15000+600000
- 630163 words of font info for 148 fonts, out of 8000000 for 9000
+ 35463 strings out of 403196
+ 733428 string characters out of 5455091
+ 1345324 words of memory out of 5000000
+ 63405 multiletter control sequences out of 15000+600000
+ 630131 words of font info for 144 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  131i,11n,135p,566b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

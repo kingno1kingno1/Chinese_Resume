@@ -39,32 +39,32 @@
   CJKmath=true
 }
 
-% Set Chinese fonts with Windows compatible fonts
-\setCJKmainfont{Microsoft YaHei}[
-  BoldFont=Microsoft YaHei Bold,
-  AutoFakeBold=2.5,
-  AutoFakeSlant=0.15
+% Set high-quality Chinese fonts using Noto fonts
+\setCJKmainfont{Noto Sans CJK TC}[
+  BoldFont=Noto Sans CJK TC Bold,
+  Scale=1.0
 ]
 
-% Set fallback fonts for different font families
-\setCJKsansfont{Microsoft YaHei}[
-  BoldFont=Microsoft YaHei Bold
+% Set sans serif fonts
+\setCJKsansfont{Noto Sans CJK TC}[
+  BoldFont=Noto Sans CJK TC Bold,
+  Scale=1.0
 ]
 
-\setCJKmonofont{SimSun}
-
-% Configure fallback fonts for Windows
-\setCJKfallbackfamilyfont{\CJKrmdefault}{
-  Microsoft YaHei,
-  SimSun,
-  SimHei,
-  KaiTi,
-  FangSong
-}
+% Set monospace fonts
+\setCJKmonofont{Noto Sans CJK TC}[
+  Scale=0.95,
+  BoldFont=Noto Sans CJK TC Bold
+]
 
 % Chinese line breaking and punctuation
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
+
+% Fix Chinese name font consistency - make both parts use the same weight
+\makeatletter
+\renewcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{text} #1}}
+\makeatother
 
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
