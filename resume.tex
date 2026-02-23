@@ -24,7 +24,7 @@
 \documentclass[10pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry - minimal top margin
-\geometry{left=1.0cm, top=0.1cm, right=1.0cm, bottom=0.6cm, footskip=0.2cm, headheight=0pt, headsep=0pt, includeheadfoot=false}
+\geometry{left=0.5cm, top=0.5cm, right=0.5cm, bottom=0.5cm, footskip=0.2cm, headheight=0pt, headsep=0pt, includeheadfoot=false}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -116,10 +116,10 @@
 
 % Aggressively remove all top spacing
 \vspace*{-25pt}
-\setlength{\headsep}{-10pt}
-\setlength{\topskip}{-5pt}
-\setlength{\topmargin}{-10pt}
-\addtolength{\voffset}{-15pt}
+\setlength{\headsep}{-5pt} % Reduce space above header
+\setlength{\topskip}{-2pt} % Reduce space above the first section
+\setlength{\topmargin}{-5pt} % Reduce top margin
+\addtolength{\voffset}{-10pt} % Adjust vertical offset
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
@@ -140,7 +140,7 @@
 \input{resume/education.tex}
 \input{resume/projects.tex}
 \input{resume/skills.tex}
-\input{resume/certificate.tex}
+% \input{resume/certificate.tex}
 
 
 
